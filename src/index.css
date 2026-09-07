@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  @apply font-body text-slate-800;
+  background-color: #151009;
+  background-image:
+    radial-gradient(ellipse 90% 55% at 15% -10%, rgba(227, 179, 78, 0.14), transparent 55%),
+    radial-gradient(ellipse 80% 55% at 100% 105%, rgba(123, 232, 176, 0.08), transparent 55%),
+    linear-gradient(165deg, #3a2415 0%, #151009 55%, #0c0906 100%);
+  background-attachment: fixed;
+}
+
+/* Skeletal-structure atom labels shouldn't be selectable while dragging */
+.no-select {
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: theme('colors.gold');
+  border-radius: 999px;
+}
+
+/* Print-friendly end-of-game / teacher report: hide everything except the
+   element marked .print-area, and drop the pastel page background so it
+   prints cleanly on plain paper. */
+@media print {
+  body {
+    background: #fff !important;
+  }
+  body * {
+    visibility: hidden;
+  }
+  .print-area, .print-area * {
+    visibility: visible;
+  }
+  .print-area {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+  .no-print {
+    display: none !important;
+  }
+}

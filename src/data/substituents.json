@@ -1,0 +1,16 @@
+{
+  "methyl": { "name": "methyl", "display": "methyl", "sortKey": "methyl", "element": "Me", "color": "#B9C2D0" },
+  "ethyl": { "name": "ethyl", "display": "ethyl", "sortKey": "ethyl", "element": "Et", "color": "#B9C2D0" },
+  "propyl": { "name": "propyl", "display": "propyl", "sortKey": "propyl", "element": "Pr", "color": "#B9C2D0" },
+  "isopropyl": { "name": "isopropyl", "display": "isopropyl", "sortKey": "isopropyl", "element": "iPr", "color": "#B9C2D0" },
+  "butyl": { "name": "butyl", "display": "butyl", "sortKey": "butyl", "element": "Bu", "color": "#B9C2D0" },
+  "tert-butyl": { "name": "tert-butyl", "display": "tert-butyl", "sortKey": "butyl", "element": "tBu", "color": "#B9C2D0" },
+  "fluoro": { "name": "fluoro", "display": "fluoro", "sortKey": "fluoro", "element": "F", "color": "#8CE0C0" },
+  "chloro": { "name": "chloro", "display": "chloro", "sortKey": "chloro", "element": "Cl", "color": "#8CE0A0" },
+  "bromo": { "name": "bromo", "display": "bromo", "sortKey": "bromo", "element": "Br", "color": "#C77B4E" },
+  "iodo": { "name": "iodo", "display": "iodo", "sortKey": "iodo", "element": "I", "color": "#B06BD6" },
+  "nitro": { "name": "nitro", "display": "nitro", "sortKey": "nitro", "element": "NO2", "color": "#FFAAA5" },
+  "phenyl": { "name": "phenyl", "display": "phenyl", "sortKey": "phenyl", "element": "Ph", "color": "#C7CEEA" },
+  "hydroxy": { "name": "hydroxy", "display": "hydroxy", "sortKey": "hydroxy", "element": "OH", "color": "#FF6F6F", "canBeSuffix": true },
+  "amino": { "name": "amino", "display": "amino", "sortKey": "amino", "element": "NH2", "color": "#7FB3FF", "canBeSuffix": true }
+}

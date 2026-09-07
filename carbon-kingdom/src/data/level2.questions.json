@@ -1,0 +1,3045 @@
+[
+  {
+    "id": "L2-E-001",
+    "level": 2,
+    "difficulty": "easy",
+    "structure": {
+      "atoms": [
+        {
+          "id": "T1",
+          "x": 1,
+          "y": 0,
+          "element": "C"
+        },
+        {
+          "id": "T2",
+          "x": 2,
+          "y": 0.55,
+          "element": "C"
+        },
+        {
+          "id": "T3",
+          "x": 3,
+          "y": 0,
+          "element": "C"
+        },
+        {
+          "id": "T4",
+          "x": 4,
+          "y": 0.55,
+          "element": "C"
+        },
+        {
+          "id": "T5",
+          "x": 5,
+          "y": 0,
+          "element": "C"
+        },
+        {
+          "id": "Sub1",
+          "x": 2,
+          "y": -0.3999999999999999,
+          "element": "Cl"
+        }
+      ],
+      "bonds": [
+        {
+          "from": "T1",
+          "to": "T2",
+          "order": 1
+        },
+        {
+          "from": "T2",
+          "to": "T3",
+          "order": 1
+        },
+        {
+          "from": "T3",
+          "to": "T4",
+          "order": 1
+        },
+        {
+          "from": "T4",
+          "to": "T5",
+          "order": 1
+        },
+        {
+          "from": "T2",
+          "to": "Sub1",
+          "order": 1
+        }
+      ]
+    },
+    "smiles": "CC(Cl)CCC",
+    "prompt": "จะเริ่มนับจากด้านไหนดี?",
+    "locants": {
+      "left": {
+        "bond": null,
+        "substituents": [
+          2
+        ]
+      },
+      "right": {
+        "bond": null,
+        "substituents": [
+          4
+        ]
+      }
+    },
+    "answer": "left",
+    "decidingRule": "substituent",
+    "hasConflict": false,
+    "explanation": "เทียบเลขตำแหน่งของหมู่แทนที่ทีละตัวจากน้อยไปมาก — นับจากซ้ายได้ [2] นับจากขวาได้ [4] ที่จุดแรกที่ต่างกัน ฝั่งซ้ายให้เลขต่ำกว่า จึงเป็นทิศทางที่ถูกต้อง",
+    "hint": "ไล่เทียบเลขตำแหน่งของหมู่แทนที่ทีละตัวจากน้อยไปมาก จนกว่าจะเจอจุดที่ต่างกัน"
+  },
+  {
+    "id": "L2-E-002",
+    "level": 2,
+    "difficulty": "easy",
+    "structure": {
+      "atoms": [
+        {
+          "id": "T1",
+          "x": 1,
+          "y": 0,
+          "element": "C"
+        },
+        {
+          "id": "T2",
+          "x": 2,
+          "y": 0.55,
+          "element": "C"
+        },
+        {
+          "id": "T3",
+          "x": 3,
+          "y": 0,
+          "element": "C"
+        },
+        {
+          "id": "T4",
+          "x": 4,
+          "y": 0.55,
+          "element": "C"
+        },
+        {
+          "id": "T5",
+          "x": 5,
+          "y": 0,
+          "element": "C"
+        },
+        {
+          "id": "T6",
+          "x": 6,
+          "y": 0.55,
+          "element": "C"
+        },
+        {
+          "id": "Sub1",
+          "x": 4,
+          "y": -0.3999999999999999,
+          "element": "Cl"
+        }
+      ],
+      "bonds": [
+        {
+          "from": "T1",
+          "to": "T2",
+          "order": 1
+        },
+        {
+          "from": "T2",
+          "to": "T3",
+          "order": 1
+        },
+        {
+          "from": "T3",
+          "to": "T4",
+          "order": 1
+        },
+        {
+          "from": "T4",
+          "to": "T5",
+          "order": 1
+        },
+        {
+          "from": "T5",
+          "to": "T6",
+          "order": 1
+        },
+        {
+          "from": "T4",
+          "to": "Sub1",
+          "order": 1
+        }
+      ]
+    },
+    "smiles": "CCCC(Cl)CC",
+    "prompt": "จะเริ่มนับจากด้านไหนดี?",
+    "locants": {
+      "left": {
+        "bond": null,
+        "substituents": [
+          4
+        ]
+      },
+      "right": {
+        "bond": null,
+        "substituents": [
+          3
+        ]
+      }
+    },
+    "answer": "right",
+    "decidingRule": "substituent",
+    "hasConflict": false,
+    "explanation": "เทียบเลขตำแหน่งของหมู่แทนที่ทีละตัวจากน้อยไปมาก — นับจากซ้ายได้ [4] นับจากขวาได้ [3] ที่จุดแรกที่ต่างกัน ฝั่งขวาให้เลขต่ำกว่า จึงเป็นทิศทางที่ถูกต้อง",
+    "hint": "ไล่เทียบเลขตำแหน่งของหมู่แทนที่ทีละตัวจากน้อยไปมาก จนกว่าจะเจอจุดที่ต่างกัน"
+  },
+  {
+    "id": "L2-E-003",
+    "level": 2,
+    "difficulty": "easy",
+    "structure": {
+      "atoms": [
+        {
+          "id": "T1",
+          "x": 1,
+          "y": 0,
+          "element": "C"
+        },
+        {
+          "id": "T2",
+          "x": 2,
+          "y": 0.55,
+          "element": "C"
+        },
+        {
+          "id": "T3",
+          "x": 3,
+          "y": 0,
+          "element": "C"
+        },
+        {
+          "id": "T4",
+          "x": 4,
+          "y": 0.55,
+          "element": "C"
+        },
+        {
+          "id": "T5",
+          "x": 5,
+          "y": 0,
+          "element": "C"
+        },
+        {
+          "id": "T6",
+          "x": 6,
+          "y": 0.55,
+          "element": "C"
+        },
+        {
+          "id": "T7",
+          "x": 7,
+          "y": 0,
+          "element": "C"
+        },
+        {
+          "id": "Sub1",
+          "x": 2,
+          "y": -0.3999999999999999,
+          "element": "Cl"
+        }
+      ],
+      "bonds": [
+        {
+          "from": "T1",
+          "to": "T2",
+          "order": 1
+        },
+        {
+          "from": "T2",
+          "to": "T3",
+          "order": 1
+        },
+        {
+          "from": "T3",
+          "to": "T4",
+          "order": 1
+        },
+        {
+          "from": "T4",
+          "to": "T5",
+          "order": 1
+        },
+        {
+          "from": "T5",
+          "to": "T6",
+          "order": 1
+        },
+        {
+          "from": "T6",
+          "to": "T7",
+          "order": 1
+        },
+        {
+          "from": "T2",
+          "to": "Sub1",
+          "order": 1
+        }
+      ]
+    },
+    "smiles": "CC(Cl)CCCCC",
+    "prompt": "จะเริ่มนับจากด้านไหนดี?",
+    "locants": {
+      "left": {
+        "bond": null,
+        "substituents": [
+          2
+        ]
+      },
+      "right": {
+        "bond": null,
+        "substituents": [
+          6
+        ]
+      }
+    },
+    "answer": "left",
+    "decidingRule": "substituent",
+    "hasConflict": false,
+    "explanation": "เทียบเลขตำแหน่งของหมู่แทนที่ทีละตัวจากน้อยไปมาก — นับจากซ้ายได้ [2] นับจากขวาได้ [6] ที่จุดแรกที่ต่างกัน ฝั่งซ้ายให้เลขต่ำกว่า จึงเป็นทิศทางที่ถูกต้อง",
+    "hint": "ไล่เทียบเลขตำแหน่งของหมู่แทนที่ทีละตัวจากน้อยไปมาก จนกว่าจะเจอจุดที่ต่างกัน"
+  },
+  {
+    "id": "L2-E-004",
+    "level": 2,
+    "difficulty": "easy",
+    "structure": {
+      "atoms": [
+        {
+          "id": "T1",
+          "x": 1,
+          "y": 0,
+          "element": "C"
+        },
+        {
+          "id": "T2",
+          "x": 2,
+          "y": 0.55,
+          "element": "C"
+        },
+        {
+          "id": "T3",
+          "x": 3,
+          "y": 0,
+          "element": "C"
+        },
+        {
+          "id": "T4",
+          "x": 4,
+          "y": 0.55,
+          "element": "C"
+        },
+        {
+          "id": "T5",
+          "x": 5,
+          "y": 0,
+          "element": "C"
+        },
+        {
+          "id": "T6",
+          "x": 6,
+          "y": 0.55,
+          "element": "C"
+        }
+      ],
+      "bonds": [
+        {
+          "from": "T1",
+          "to": "T2",
+          "order": 1
+        },
+        {
+          "from": "T2",
+          "to": "T3",
+          "order": 2
+        },
+        {
+          "from": "T3",
+          "to": "T4",
+          "order": 1
+        },
+        {
+          "from": "T4",
+          "to": "T5",
+          "order": 1
+        },
+        {
+          "from": "T5",
+          "to": "T6",
+          "order": 1
+        }
+      ]
+    },
+    "smiles": "CC=CCCC",
+    "prompt": "จะเริ่มนับจากด้านไหนดี?",
+    "locants": {
+      "left": {
+        "bond": 2,
+        "substituents": []
+      },
+      "right": {
+        "bond": 4,
+        "substituents": []
+      }
+    },
+    "answer": "left",
+    "decidingRule": "bond",
+    "hasConflict": false,
+    "explanation": "พันธะซ้อนได้เลขตำแหน่งต่ำกว่าเมื่อเริ่มนับจากด้านซ้าย (2 เทียบกับ 4) พันธะคู่/สามต้องมาก่อนเสมอ ไม่ว่าหมู่แทนที่จะอยู่ตรงไหน",
+    "hint": "เช็กตำแหน่งพันธะคู่/สามก่อนเป็นอันดับแรก — กฎนี้ชนะกฎหมู่แทนที่เสมอ"
+  },
+  {
+    "id": "L2-E-005",
+    "level": 2,
+    "difficulty": "easy",
+    "structure": {
+      "atoms": [
+        {
+          "id": "T1",
+          "x": 1,
+          "y": 0,
+          "element": "C"
+        },
+        {
+          "id": "T2",
+          "x": 2,
+          "y": 0.55,
+          "element": "C"
+        },
+        {
+          "id": "T3",
+          "x": 3,
+          "y": 0,
+          "element": "C"
+        },
+        {
+          "id": "T4",
+          "x": 4,
+          "y": 0.55,
+          "element": "C"
+        },
+        {
+          "id": "T5",
+          "x": 5,
+          "y": 0,
+          "element": "C"
+        },
+        {
+          "id": "T6",
+          "x": 6,
+          "y": 0.55,
+          "element": "C"
+        },
+        {
+          "id": "T7",
+          "x": 7,
+          "y": 0,
+          "element": "C"
+        }
+      ],
+      "bonds": [
+        {
+          "from": "T1",
+          "to": "T2",
+          "order": 1
+        },
+        {
+          "from": "T2",
+          "to": "T3",
+          "order": 1
+        },
+        {
+          "from": "T3",
+          "to": "T4",
+          "order": 1
+        },
+        {
+          "from": "T4",
+          "to": "T5",
+          "order": 1
+        },
+        {
+          "from": "T5",
+          "to": "T6",
+          "order": 2
+        },
+        {
+          "from": "T6",
+          "to": "T7",
+          "order": 1
+        }
+      ]
+    },
+    "smiles": "CCCCC=CC",
+    "prompt": "จะเริ่มนับจากด้านไหนดี?",
+    "locants": {
+      "left": {
+        "bond": 5,
+        "substituents": []
+      },
+      "right": {
+        "bond": 2,
+        "substituents": []
+      }
+    },
+    "answer": "right",
+    "decidingRule": "bond",
+    "hasConflict": false,
+    "explanation": "พันธะซ้อนได้เลขตำแหน่งต่ำกว่าเมื่อเริ่มนับจากด้านขวา (2 เทียบกับ 5) พันธะคู่/สามต้องมาก่อนเสมอ ไม่ว่าหมู่แทนที่จะอยู่ตรงไหน",
+    "hint": "เช็กตำแหน่งพันธะคู่/สามก่อนเป็นอันดับแรก — กฎนี้ชนะกฎหมู่แทนที่เสมอ"
+  },
+  {
+    "id": "L2-M-001",
+    "level": 2,
+    "difficulty": "medium",
+    "structure": {
+      "atoms": [
+        {
+          "id": "T1",
+          "x": 1,
+          "y": 0,
+          "element": "C"
+        },
+        {
+          "id": "T2",
+          "x": 2,
+          "y": 0.55,
+          "element": "C"
+        },
+        {
+          "id": "T3",
+          "x": 3,
+          "y": 0,
+          "element": "C"
+        },
+        {
+          "id": "T4",
+          "x": 4,
+          "y": 0.55,
+          "element": "C"
+        },
+        {
+          "id": "T5",
+          "x": 5,
+          "y": 0,
+          "element": "C"
+        },
+        {
+          "id": "T6",
+          "x": 6,
+          "y": 0.55,
+          "element": "C"
+        },
+        {
+          "id": "T7",
+          "x": 7,
+          "y": 0,
+          "element": "C"
+        },
+        {
+          "id": "Sub1",
+          "x": 2,
+          "y": -0.3999999999999999,
+          "element": "Cl"
+        },
+        {
+          "id": "Sub2",
+          "x": 5,
+          "y": -0.95,
+          "element": "Cl"
+        }
+      ],
+      "bonds": [
+        {
+          "from": "T1",
+          "to": "T2",
+          "order": 1
+        },
+        {
+          "from": "T2",
+          "to": "T3",
+          "order": 1
+        },
+        {
+          "from": "T3",
+          "to": "T4",
+          "order": 1
+        },
+        {
+          "from": "T4",
+          "to": "T5",
+          "order": 1
+        },
+        {
+          "from": "T5",
+          "to": "T6",
+          "order": 1
+        },
+        {
+          "from": "T6",
+          "to": "T7",
+          "order": 1
+        },
+        {
+          "from": "T2",
+          "to": "Sub1",
+          "order": 1
+        },
+        {
+          "from": "T5",
+          "to": "Sub2",
+          "order": 1
+        }
+      ]
+    },
+    "smiles": "CC(Cl)CCC(Cl)CC",
+    "prompt": "จะเริ่มนับจากด้านไหนดี?",
+    "locants": {
+      "left": {
+        "bond": null,
+        "substituents": [
+          2,
+          5
+        ]
+      },
+      "right": {
+        "bond": null,
+        "substituents": [
+          3,
+          6
+        ]
+      }
+    },
+    "answer": "left",
+    "decidingRule": "substituent",
+    "hasConflict": false,
+    "explanation": "เทียบเลขตำแหน่งของหมู่แทนที่ทีละตัวจากน้อยไปมาก — นับจากซ้ายได้ [2, 5] นับจากขวาได้ [3, 6] ที่จุดแรกที่ต่างกัน ฝั่งซ้ายให้เลขต่ำกว่า จึงเป็นทิศทางที่ถูกต้อง",
+    "hint": "ไล่เทียบเลขตำแหน่งของหมู่แทนที่ทีละตัวจากน้อยไปมาก จนกว่าจะเจอจุดที่ต่างกัน"
+  },
+  {
+    "id": "L2-M-002",
+    "level": 2,
+    "difficulty": "medium",
+    "structure": {
+      "atoms": [
+        {
+          "id": "T1",
+          "x": 1,
+          "y": 0,
+          "element": "C"
+        },
+        {
+          "id": "T2",
+          "x": 2,
+          "y": 0.55,
+          "element": "C"
+        },
+        {
+          "id": "T3",
+          "x": 3,
+          "y": 0,
+          "element": "C"
+        },
+        {
+          "id": "T4",
+          "x": 4,
+          "y": 0.55,
+          "element": "C"
+        },
+        {
+          "id": "T5",
+          "x": 5,
+          "y": 0,
+          "element": "C"
+        },
+        {
+          "id": "T6",
+          "x": 6,
+          "y": 0.55,
+          "element": "C"
+        },
+        {
+          "id": "T7",
+          "x": 7,
+          "y": 0,
+          "element": "C"
+        },
+        {
+          "id": "T8",
+          "x": 8,
+          "y": 0.55,
+          "element": "C"
+        },
+        {
+          "id": "Sub1",
+          "x": 3,
+          "y": -0.95,
+          "element": "Cl"
+        },
+        {
+          "id": "Sub2",
+          "x": 7,
+          "y": -0.95,
+          "element": "Cl"
+        }
+      ],
+      "bonds": [
+        {
+          "from": "T1",
+          "to": "T2",
+          "order": 1
+        },
+        {
+          "from": "T2",
+          "to": "T3",
+          "order": 1
+        },
+        {
+          "from": "T3",
+          "to": "T4",
+          "order": 1
+        },
+        {
+          "from": "T4",
+          "to": "T5",
+          "order": 1
+        },
+        {
+          "from": "T5",
+          "to": "T6",
+          "order": 1
+        },
+        {
+          "from": "T6",
+          "to": "T7",
+          "order": 1
+        },
+        {
+          "from": "T7",
+          "to": "T8",
+          "order": 1
+        },
+        {
+          "from": "T3",
+          "to": "Sub1",
+          "order": 1
+        },
+        {
+          "from": "T7",
+          "to": "Sub2",
+          "order": 1
+        }
+      ]
+    },
+    "smiles": "CCC(Cl)CCCC(Cl)C",
+    "prompt": "จะเริ่มนับจากด้านไหนดี?",
+    "locants": {
+      "left": {
+        "bond": null,
+        "substituents": [
+          3,
+          7
+        ]
+      },
+      "right": {
+        "bond": null,
+        "substituents": [
+          2,
+          6
+        ]
+      }
+    },
+    "answer": "right",
+    "decidingRule": "substituent",
+    "hasConflict": false,
+    "explanation": "เทียบเลขตำแหน่งของหมู่แทนที่ทีละตัวจากน้อยไปมาก — นับจากซ้ายได้ [3, 7] นับจากขวาได้ [2, 6] ที่จุดแรกที่ต่างกัน ฝั่งขวาให้เลขต่ำกว่า จึงเป็นทิศทางที่ถูกต้อง",
+    "hint": "ไล่เทียบเลขตำแหน่งของหมู่แทนที่ทีละตัวจากน้อยไปมาก จนกว่าจะเจอจุดที่ต่างกัน"
+  },
+  {
+    "id": "L2-M-003",
+    "level": 2,
+    "difficulty": "medium",
+    "structure": {
+      "atoms": [
+        {
+          "id": "T1",
+          "x": 1,
+          "y": 0,
+          "element": "C"
+        },
+        {
+          "id": "T2",
+          "x": 2,
+          "y": 0.55,
+          "element": "C"
+        },
+        {
+          "id": "T3",
+          "x": 3,
+          "y": 0,
+          "element": "C"
+        },
+        {
+          "id": "T4",
+          "x": 4,
+          "y": 0.55,
+          "element": "C"
+        },
+        {
+          "id": "T5",
+          "x": 5,
+          "y": 0,
+          "element": "C"
+        },
+        {
+          "id": "T6",
+          "x": 6,
+          "y": 0.55,
+          "element": "C"
+        },
+        {
+          "id": "Sub1",
+          "x": 2,
+          "y": -0.3999999999999999,
+          "element": "Cl"
+        },
+        {
+          "id": "Sub2",
+          "x": 3,
+          "y": -0.95,
+          "element": "Cl"
+        },
+        {
+          "id": "Sub3",
+          "x": 5,
+          "y": -0.95,
+          "element": "Cl"
+        }
+      ],
+      "bonds": [
+        {
+          "from": "T1",
+          "to": "T2",
+          "order": 1
+        },
+        {
+          "from": "T2",
+          "to": "T3",
+          "order": 1
+        },
+        {
+          "from": "T3",
+          "to": "T4",
+          "order": 1
+        },
+        {
+          "from": "T4",
+          "to": "T5",
+          "order": 1
+        },
+        {
+          "from": "T5",
+          "to": "T6",
+          "order": 1
+        },
+        {
+          "from": "T2",
+          "to": "Sub1",
+          "order": 1
+        },
+        {
+          "from": "T3",
+          "to": "Sub2",
+          "order": 1
+        },
+        {
+          "from": "T5",
+          "to": "Sub3",
+          "order": 1
+        }
+      ]
+    },
+    "smiles": "CC(Cl)C(Cl)CC(Cl)C",
+    "prompt": "จะเริ่มนับจากด้านไหนดี?",
+    "locants": {
+      "left": {
+        "bond": null,
+        "substituents": [
+          2,
+          3,
+          5
+        ]
+      },
+      "right": {
+        "bond": null,
+        "substituents": [
+          2,
+          4,
+          5
+        ]
+      }
+    },
+    "answer": "left",
+    "decidingRule": "substituent",
+    "hasConflict": false,
+    "explanation": "เทียบเลขตำแหน่งของหมู่แทนที่ทีละตัวจากน้อยไปมาก — นับจากซ้ายได้ [2, 3, 5] นับจากขวาได้ [2, 4, 5] ที่จุดแรกที่ต่างกัน ฝั่งซ้ายให้เลขต่ำกว่า จึงเป็นทิศทางที่ถูกต้อง",
+    "hint": "ไล่เทียบเลขตำแหน่งของหมู่แทนที่ทีละตัวจากน้อยไปมาก จนกว่าจะเจอจุดที่ต่างกัน"
+  },
+  {
+    "id": "L2-M-004",
+    "level": 2,
+    "difficulty": "medium",
+    "structure": {
+      "atoms": [
+        {
+          "id": "T1",
+          "x": 1,
+          "y": 0,
+          "element": "C"
+        },
+        {
+          "id": "T2",
+          "x": 2,
+          "y": 0.55,
+          "element": "C"
+        },
+        {
+          "id": "T3",
+          "x": 3,
+          "y": 0,
+          "element": "C"
+        },
+        {
+          "id": "T4",
+          "x": 4,
+          "y": 0.55,
+          "element": "C"
+        },
+        {
+          "id": "T5",
+          "x": 5,
+          "y": 0,
+          "element": "C"
+        },
+        {
+          "id": "T6",
+          "x": 6,
+          "y": 0.55,
+          "element": "C"
+        },
+        {
+          "id": "T7",
+          "x": 7,
+          "y": 0,
+          "element": "C"
+        },
+        {
+          "id": "Sub1",
+          "x": 3,
+          "y": -0.95,
+          "element": "Cl"
+        }
+      ],
+      "bonds": [
+        {
+          "from": "T1",
+          "to": "T2",
+          "order": 1
+        },
+        {
+          "from": "T2",
+          "to": "T3",
+          "order": 1
+        },
+        {
+          "from": "T3",
+          "to": "T4",
+          "order": 2
+        },
+        {
+          "from": "T4",
+          "to": "T5",
+          "order": 1
+        },
+        {
+          "from": "T5",
+          "to": "T6",
+          "order": 1
+        },
+        {
+          "from": "T6",
+          "to": "T7",
+          "order": 1
+        },
+        {
+          "from": "T3",
+          "to": "Sub1",
+          "order": 1
+        }
+      ]
+    },
+    "smiles": "CCC(Cl)=CCCC",
+    "prompt": "จะเริ่มนับจากด้านไหนดี?",
+    "locants": {
+      "left": {
+        "bond": 3,
+        "substituents": [
+          3
+        ]
+      },
+      "right": {
+        "bond": 4,
+        "substituents": [
+          5
+        ]
+      }
+    },
+    "answer": "left",
+    "decidingRule": "bond",
+    "hasConflict": false,
+    "explanation": "พันธะซ้อนได้เลขตำแหน่งต่ำกว่าเมื่อเริ่มนับจากด้านซ้าย (3 เทียบกับ 4) พันธะคู่/สามต้องมาก่อนเสมอ ไม่ว่าหมู่แทนที่จะอยู่ตรงไหน",
+    "hint": "เช็กตำแหน่งพันธะคู่/สามก่อนเป็นอันดับแรก — กฎนี้ชนะกฎหมู่แทนที่เสมอ"
+  },
+  {
+    "id": "L2-M-005",
+    "level": 2,
+    "difficulty": "medium",
+    "structure": {
+      "atoms": [
+        {
+          "id": "T1",
+          "x": 1,
+          "y": 0,
+          "element": "C"
+        },
+        {
+          "id": "T2",
+          "x": 2,
+          "y": 0.55,
+          "element": "C"
+        },
+        {
+          "id": "T3",
+          "x": 3,
+          "y": 0,
+          "element": "C"
+        },
+        {
+          "id": "T4",
+          "x": 4,
+          "y": 0.55,
+          "element": "C"
+        },
+        {
+          "id": "T5",
+          "x": 5,
+          "y": 0,
+          "element": "C"
+        },
+        {
+          "id": "T6",
+          "x": 6,
+          "y": 0.55,
+          "element": "C"
+        },
+        {
+          "id": "T7",
+          "x": 7,
+          "y": 0,
+          "element": "C"
+        },
+        {
+          "id": "T8",
+          "x": 8,
+          "y": 0.55,
+          "element": "C"
+        },
+        {
+          "id": "T9",
+          "x": 9,
+          "y": 0,
+          "element": "C"
+        },
+        {
+          "id": "Sub1",
+          "x": 2,
+          "y": -0.3999999999999999,
+          "element": "Cl"
+        },
+        {
+          "id": "Sub2",
+          "x": 4,
+          "y": -0.3999999999999999,
+          "element": "Cl"
+        },
+        {
+          "id": "Sub3",
+          "x": 7,
+          "y": -0.95,
+          "element": "Cl"
+        }
+      ],
+      "bonds": [
+        {
+          "from": "T1",
+          "to": "T2",
+          "order": 1
+        },
+        {
+          "from": "T2",
+          "to": "T3",
+          "order": 1
+        },
+        {
+          "from": "T3",
+          "to": "T4",
+          "order": 1
+        },
+        {
+          "from": "T4",
+          "to": "T5",
+          "order": 1
+        },
+        {
+          "from": "T5",
+          "to": "T6",
+          "order": 1
+        },
+        {
+          "from": "T6",
+          "to": "T7",
+          "order": 1
+        },
+        {
+          "from": "T7",
+          "to": "T8",
+          "order": 1
+        },
+        {
+          "from": "T8",
+          "to": "T9",
+          "order": 1
+        },
+        {
+          "from": "T2",
+          "to": "Sub1",
+          "order": 1
+        },
+        {
+          "from": "T4",
+          "to": "Sub2",
+          "order": 1
+        },
+        {
+          "from": "T7",
+          "to": "Sub3",
+          "order": 1
+        }
+      ]
+    },
+    "smiles": "CC(Cl)CC(Cl)CCC(Cl)CC",
+    "prompt": "จะเริ่มนับจากด้านไหนดี?",
+    "locants": {
+      "left": {
+        "bond": null,
+        "substituents": [
+          2,
+          4,
+          7
+        ]
+      },
+      "right": {
+        "bond": null,
+        "substituents": [
+          3,
+          6,
+          8
+        ]
+      }
+    },
+    "answer": "left",
+    "decidingRule": "substituent",
+    "hasConflict": false,
+    "explanation": "เทียบเลขตำแหน่งของหมู่แทนที่ทีละตัวจากน้อยไปมาก — นับจากซ้ายได้ [2, 4, 7] นับจากขวาได้ [3, 6, 8] ที่จุดแรกที่ต่างกัน ฝั่งซ้ายให้เลขต่ำกว่า จึงเป็นทิศทางที่ถูกต้อง",
+    "hint": "ไล่เทียบเลขตำแหน่งของหมู่แทนที่ทีละตัวจากน้อยไปมาก จนกว่าจะเจอจุดที่ต่างกัน"
+  },
+  {
+    "id": "L2-H-001",
+    "level": 2,
+    "difficulty": "hard",
+    "structure": {
+      "atoms": [
+        {
+          "id": "T1",
+          "x": 1,
+          "y": 0,
+          "element": "C"
+        },
+        {
+          "id": "T2",
+          "x": 2,
+          "y": 0.55,
+          "element": "C"
+        },
+        {
+          "id": "T3",
+          "x": 3,
+          "y": 0,
+          "element": "C"
+        },
+        {
+          "id": "T4",
+          "x": 4,
+          "y": 0.55,
+          "element": "C"
+        },
+        {
+          "id": "T5",
+          "x": 5,
+          "y": 0,
+          "element": "C"
+        },
+        {
+          "id": "T6",
+          "x": 6,
+          "y": 0.55,
+          "element": "C"
+        },
+        {
+          "id": "Sub1",
+          "x": 2,
+          "y": -0.3999999999999999,
+          "element": "Cl"
+        }
+      ],
+      "bonds": [
+        {
+          "from": "T1",
+          "to": "T2",
+          "order": 1
+        },
+        {
+          "from": "T2",
+          "to": "T3",
+          "order": 1
+        },
+        {
+          "from": "T3",
+          "to": "T4",
+          "order": 1
+        },
+        {
+          "from": "T4",
+          "to": "T5",
+          "order": 2
+        },
+        {
+          "from": "T5",
+          "to": "T6",
+          "order": 1
+        },
+        {
+          "from": "T2",
+          "to": "Sub1",
+          "order": 1
+        }
+      ]
+    },
+    "smiles": "CC(Cl)CC=CC",
+    "prompt": "จะเริ่มนับจากด้านไหนดี?",
+    "locants": {
+      "left": {
+        "bond": 4,
+        "substituents": [
+          2
+        ]
+      },
+      "right": {
+        "bond": 2,
+        "substituents": [
+          5
+        ]
+      }
+    },
+    "answer": "right",
+    "decidingRule": "bond",
+    "hasConflict": true,
+    "explanation": "พันธะซ้อนอยู่ที่ตำแหน่ง 4 ถ้านับจากซ้าย และตำแหน่ง 2 ถ้านับจากขวา — ถึงแม้การนับจากอีกด้านจะให้เลขตำแหน่งของหมู่แทนที่ต่ำกว่าก็ตาม แต่ \"พันธะคู่/สามต้องได้เลขต่ำก่อนเสมอ\" จึงต้องนับจากด้านขวา (ตำแหน่งพันธะ = 2) กฎนี้มาก่อนกฎเรื่องหมู่แทนที่เสมอ",
+    "hint": "เช็กตำแหน่งพันธะคู่/สามก่อนเป็นอันดับแรก — กฎนี้ชนะกฎหมู่แทนที่เสมอ"
+  },
+  {
+    "id": "L2-H-002",
+    "level": 2,
+    "difficulty": "hard",
+    "structure": {
+      "atoms": [
+        {
+          "id": "T1",
+          "x": 1,
+          "y": 0,
+          "element": "C"
+        },
+        {
+          "id": "T2",
+          "x": 2,
+          "y": 0.55,
+          "element": "C"
+        },
+        {
+          "id": "T3",
+          "x": 3,
+          "y": 0,
+          "element": "C"
+        },
+        {
+          "id": "T4",
+          "x": 4,
+          "y": 0.55,
+          "element": "C"
+        },
+        {
+          "id": "T5",
+          "x": 5,
+          "y": 0,
+          "element": "C"
+        },
+        {
+          "id": "T6",
+          "x": 6,
+          "y": 0.55,
+          "element": "C"
+        },
+        {
+          "id": "T7",
+          "x": 7,
+          "y": 0,
+          "element": "C"
+        },
+        {
+          "id": "T8",
+          "x": 8,
+          "y": 0.55,
+          "element": "C"
+        },
+        {
+          "id": "Sub1",
+          "x": 6,
+          "y": -0.3999999999999999,
+          "element": "Cl"
+        }
+      ],
+      "bonds": [
+        {
+          "from": "T1",
+          "to": "T2",
+          "order": 1
+        },
+        {
+          "from": "T2",
+          "to": "T3",
+          "order": 3
+        },
+        {
+          "from": "T3",
+          "to": "T4",
+          "order": 1
+        },
+        {
+          "from": "T4",
+          "to": "T5",
+          "order": 1
+        },
+        {
+          "from": "T5",
+          "to": "T6",
+          "order": 1
+        },
+        {
+          "from": "T6",
+          "to": "T7",
+          "order": 1
+        },
+        {
+          "from": "T7",
+          "to": "T8",
+          "order": 1
+        },
+        {
+          "from": "T6",
+          "to": "Sub1",
+          "order": 1
+        }
+      ]
+    },
+    "smiles": "CC#CCCC(Cl)CC",
+    "prompt": "จะเริ่มนับจากด้านไหนดี?",
+    "locants": {
+      "left": {
+        "bond": 2,
+        "substituents": [
+          6
+        ]
+      },
+      "right": {
+        "bond": 6,
+        "substituents": [
+          3
+        ]
+      }
+    },
+    "answer": "left",
+    "decidingRule": "bond",
+    "hasConflict": true,
+    "explanation": "พันธะซ้อนอยู่ที่ตำแหน่ง 2 ถ้านับจากซ้าย และตำแหน่ง 6 ถ้านับจากขวา — ถึงแม้การนับจากอีกด้านจะให้เลขตำแหน่งของหมู่แทนที่ต่ำกว่าก็ตาม แต่ \"พันธะคู่/สามต้องได้เลขต่ำก่อนเสมอ\" จึงต้องนับจากด้านซ้าย (ตำแหน่งพันธะ = 2) กฎนี้มาก่อนกฎเรื่องหมู่แทนที่เสมอ",
+    "hint": "เช็กตำแหน่งพันธะคู่/สามก่อนเป็นอันดับแรก — กฎนี้ชนะกฎหมู่แทนที่เสมอ"
+  },
+  {
+    "id": "L2-H-003",
+    "level": 2,
+    "difficulty": "hard",
+    "structure": {
+      "atoms": [
+        {
+          "id": "T1",
+          "x": 1,
+          "y": 0,
+          "element": "C"
+        },
+        {
+          "id": "T2",
+          "x": 2,
+          "y": 0.55,
+          "element": "C"
+        },
+        {
+          "id": "T3",
+          "x": 3,
+          "y": 0,
+          "element": "C"
+        },
+        {
+          "id": "T4",
+          "x": 4,
+          "y": 0.55,
+          "element": "C"
+        },
+        {
+          "id": "T5",
+          "x": 5,
+          "y": 0,
+          "element": "C"
+        },
+        {
+          "id": "T6",
+          "x": 6,
+          "y": 0.55,
+          "element": "C"
+        },
+        {
+          "id": "T7",
+          "x": 7,
+          "y": 0,
+          "element": "C"
+        },
+        {
+          "id": "Sub1",
+          "x": 2,
+          "y": -0.3999999999999999,
+          "element": "Cl"
+        },
+        {
+          "id": "Sub2",
+          "x": 3,
+          "y": -0.95,
+          "element": "Cl"
+        }
+      ],
+      "bonds": [
+        {
+          "from": "T1",
+          "to": "T2",
+          "order": 1
+        },
+        {
+          "from": "T2",
+          "to": "T3",
+          "order": 1
+        },
+        {
+          "from": "T3",
+          "to": "T4",
+          "order": 1
+        },
+        {
+          "from": "T4",
+          "to": "T5",
+          "order": 1
+        },
+        {
+          "from": "T5",
+          "to": "T6",
+          "order": 2
+        },
+        {
+          "from": "T6",
+          "to": "T7",
+          "order": 1
+        },
+        {
+          "from": "T2",
+          "to": "Sub1",
+          "order": 1
+        },
+        {
+          "from": "T3",
+          "to": "Sub2",
+          "order": 1
+        }
+      ]
+    },
+    "smiles": "CC(Cl)C(Cl)CC=CC",
+    "prompt": "จะเริ่มนับจากด้านไหนดี?",
+    "locants": {
+      "left": {
+        "bond": 5,
+        "substituents": [
+          2,
+          3
+        ]
+      },
+      "right": {
+        "bond": 2,
+        "substituents": [
+          5,
+          6
+        ]
+      }
+    },
+    "answer": "right",
+    "decidingRule": "bond",
+    "hasConflict": true,
+    "explanation": "พันธะซ้อนอยู่ที่ตำแหน่ง 5 ถ้านับจากซ้าย และตำแหน่ง 2 ถ้านับจากขวา — ถึงแม้การนับจากอีกด้านจะให้เลขตำแหน่งของหมู่แทนที่ต่ำกว่าก็ตาม แต่ \"พันธะคู่/สามต้องได้เลขต่ำก่อนเสมอ\" จึงต้องนับจากด้านขวา (ตำแหน่งพันธะ = 2) กฎนี้มาก่อนกฎเรื่องหมู่แทนที่เสมอ",
+    "hint": "เช็กตำแหน่งพันธะคู่/สามก่อนเป็นอันดับแรก — กฎนี้ชนะกฎหมู่แทนที่เสมอ"
+  },
+  {
+    "id": "L2-H-004",
+    "level": 2,
+    "difficulty": "hard",
+    "structure": {
+      "atoms": [
+        {
+          "id": "T1",
+          "x": 1,
+          "y": 0,
+          "element": "C"
+        },
+        {
+          "id": "T2",
+          "x": 2,
+          "y": 0.55,
+          "element": "C"
+        },
+        {
+          "id": "T3",
+          "x": 3,
+          "y": 0,
+          "element": "C"
+        },
+        {
+          "id": "T4",
+          "x": 4,
+          "y": 0.55,
+          "element": "C"
+        },
+        {
+          "id": "T5",
+          "x": 5,
+          "y": 0,
+          "element": "C"
+        },
+        {
+          "id": "T6",
+          "x": 6,
+          "y": 0.55,
+          "element": "C"
+        },
+        {
+          "id": "T7",
+          "x": 7,
+          "y": 0,
+          "element": "C"
+        },
+        {
+          "id": "T8",
+          "x": 8,
+          "y": 0.55,
+          "element": "C"
+        },
+        {
+          "id": "T9",
+          "x": 9,
+          "y": 0,
+          "element": "C"
+        },
+        {
+          "id": "Sub1",
+          "x": 2,
+          "y": -0.3999999999999999,
+          "element": "Cl"
+        },
+        {
+          "id": "Sub2",
+          "x": 4,
+          "y": -0.3999999999999999,
+          "element": "Cl"
+        },
+        {
+          "id": "Sub3",
+          "x": 8,
+          "y": -0.3999999999999999,
+          "element": "Cl"
+        }
+      ],
+      "bonds": [
+        {
+          "from": "T1",
+          "to": "T2",
+          "order": 1
+        },
+        {
+          "from": "T2",
+          "to": "T3",
+          "order": 1
+        },
+        {
+          "from": "T3",
+          "to": "T4",
+          "order": 1
+        },
+        {
+          "from": "T4",
+          "to": "T5",
+          "order": 1
+        },
+        {
+          "from": "T5",
+          "to": "T6",
+          "order": 1
+        },
+        {
+          "from": "T6",
+          "to": "T7",
+          "order": 1
+        },
+        {
+          "from": "T7",
+          "to": "T8",
+          "order": 1
+        },
+        {
+          "from": "T8",
+          "to": "T9",
+          "order": 1
+        },
+        {
+          "from": "T2",
+          "to": "Sub1",
+          "order": 1
+        },
+        {
+          "from": "T4",
+          "to": "Sub2",
+          "order": 1
+        },
+        {
+          "from": "T8",
+          "to": "Sub3",
+          "order": 1
+        }
+      ]
+    },
+    "smiles": "CC(Cl)CC(Cl)CCCC(Cl)C",
+    "prompt": "จะเริ่มนับจากด้านไหนดี?",
+    "locants": {
+      "left": {
+        "bond": null,
+        "substituents": [
+          2,
+          4,
+          8
+        ]
+      },
+      "right": {
+        "bond": null,
+        "substituents": [
+          2,
+          6,
+          8
+        ]
+      }
+    },
+    "answer": "left",
+    "decidingRule": "substituent",
+    "hasConflict": false,
+    "explanation": "เทียบเลขตำแหน่งของหมู่แทนที่ทีละตัวจากน้อยไปมาก — นับจากซ้ายได้ [2, 4, 8] นับจากขวาได้ [2, 6, 8] ที่จุดแรกที่ต่างกัน ฝั่งซ้ายให้เลขต่ำกว่า จึงเป็นทิศทางที่ถูกต้อง",
+    "hint": "ไล่เทียบเลขตำแหน่งของหมู่แทนที่ทีละตัวจากน้อยไปมาก จนกว่าจะเจอจุดที่ต่างกัน"
+  },
+  {
+    "id": "L2-H-005",
+    "level": 2,
+    "difficulty": "hard",
+    "structure": {
+      "atoms": [
+        {
+          "id": "T1",
+          "x": 1,
+          "y": 0,
+          "element": "C"
+        },
+        {
+          "id": "T2",
+          "x": 2,
+          "y": 0.55,
+          "element": "C"
+        },
+        {
+          "id": "T3",
+          "x": 3,
+          "y": 0,
+          "element": "C"
+        },
+        {
+          "id": "T4",
+          "x": 4,
+          "y": 0.55,
+          "element": "C"
+        },
+        {
+          "id": "T5",
+          "x": 5,
+          "y": 0,
+          "element": "C"
+        },
+        {
+          "id": "T6",
+          "x": 6,
+          "y": 0.55,
+          "element": "C"
+        },
+        {
+          "id": "Sub1",
+          "x": 2,
+          "y": -0.3999999999999999,
+          "element": "Cl"
+        }
+      ],
+      "bonds": [
+        {
+          "from": "T1",
+          "to": "T2",
+          "order": 1
+        },
+        {
+          "from": "T2",
+          "to": "T3",
+          "order": 1
+        },
+        {
+          "from": "T3",
+          "to": "T4",
+          "order": 2
+        },
+        {
+          "from": "T4",
+          "to": "T5",
+          "order": 1
+        },
+        {
+          "from": "T5",
+          "to": "T6",
+          "order": 1
+        },
+        {
+          "from": "T2",
+          "to": "Sub1",
+          "order": 1
+        }
+      ]
+    },
+    "smiles": "CC(Cl)C=CCC",
+    "prompt": "จะเริ่มนับจากด้านไหนดี?",
+    "locants": {
+      "left": {
+        "bond": 3,
+        "substituents": [
+          2
+        ]
+      },
+      "right": {
+        "bond": 3,
+        "substituents": [
+          5
+        ]
+      }
+    },
+    "answer": "left",
+    "decidingRule": "substituent",
+    "hasConflict": false,
+    "explanation": "พันธะซ้อนอยู่กึ่งกลางพอดี (ตำแหน่ง 3 เท่ากันทั้งสองด้าน) จึงต้องตัดสินด้วยกฎถัดไป: เทียบเลขตำแหน่งของหมู่แทนที่ — นับจากซ้ายได้ [2] นับจากขวาได้ [5] จุดแรกที่ต่างกันฝั่งซ้ายต่ำกว่า จึงชนะ",
+    "hint": "ไล่เทียบเลขตำแหน่งของหมู่แทนที่ทีละตัวจากน้อยไปมาก จนกว่าจะเจอจุดที่ต่างกัน"
+  },
+  {
+    "id": "L2-E-006",
+    "level": 2,
+    "difficulty": "easy",
+    "structure": {
+      "atoms": [
+        {
+          "id": "T1",
+          "x": 1,
+          "y": 0,
+          "element": "C"
+        },
+        {
+          "id": "T2",
+          "x": 2,
+          "y": 0.55,
+          "element": "C"
+        },
+        {
+          "id": "T3",
+          "x": 3,
+          "y": 0,
+          "element": "C"
+        },
+        {
+          "id": "T4",
+          "x": 4,
+          "y": 0.55,
+          "element": "C"
+        },
+        {
+          "id": "T5",
+          "x": 5,
+          "y": 0,
+          "element": "C"
+        },
+        {
+          "id": "T6",
+          "x": 6,
+          "y": 0.55,
+          "element": "C"
+        },
+        {
+          "id": "T7",
+          "x": 7,
+          "y": 0,
+          "element": "C"
+        },
+        {
+          "id": "T8",
+          "x": 8,
+          "y": 0.55,
+          "element": "C"
+        },
+        {
+          "id": "Sub1",
+          "x": 3,
+          "y": -0.95,
+          "element": "Cl"
+        }
+      ],
+      "bonds": [
+        {
+          "from": "T1",
+          "to": "T2",
+          "order": 1
+        },
+        {
+          "from": "T2",
+          "to": "T3",
+          "order": 1
+        },
+        {
+          "from": "T3",
+          "to": "T4",
+          "order": 1
+        },
+        {
+          "from": "T4",
+          "to": "T5",
+          "order": 1
+        },
+        {
+          "from": "T5",
+          "to": "T6",
+          "order": 1
+        },
+        {
+          "from": "T6",
+          "to": "T7",
+          "order": 1
+        },
+        {
+          "from": "T7",
+          "to": "T8",
+          "order": 1
+        },
+        {
+          "from": "T3",
+          "to": "Sub1",
+          "order": 1
+        }
+      ]
+    },
+    "smiles": "CCC(Cl)CCCCC",
+    "prompt": "จะเริ่มนับจากด้านไหนดี?",
+    "locants": {
+      "left": {
+        "bond": null,
+        "substituents": [
+          3
+        ]
+      },
+      "right": {
+        "bond": null,
+        "substituents": [
+          6
+        ]
+      }
+    },
+    "answer": "left",
+    "decidingRule": "substituent",
+    "hasConflict": false,
+    "explanation": "เทียบเลขตำแหน่งของหมู่แทนที่ทีละตัวจากน้อยไปมาก — นับจากซ้ายได้ [3] นับจากขวาได้ [6] ที่จุดแรกที่ต่างกัน ฝั่งซ้ายให้เลขต่ำกว่า จึงเป็นทิศทางที่ถูกต้อง",
+    "hint": "ไล่เทียบเลขตำแหน่งของหมู่แทนที่ทีละตัวจากน้อยไปมาก จนกว่าจะเจอจุดที่ต่างกัน"
+  },
+  {
+    "id": "L2-E-007",
+    "level": 2,
+    "difficulty": "easy",
+    "structure": {
+      "atoms": [
+        {
+          "id": "T1",
+          "x": 1,
+          "y": 0,
+          "element": "C"
+        },
+        {
+          "id": "T2",
+          "x": 2,
+          "y": 0.55,
+          "element": "C"
+        },
+        {
+          "id": "T3",
+          "x": 3,
+          "y": 0,
+          "element": "C"
+        },
+        {
+          "id": "T4",
+          "x": 4,
+          "y": 0.55,
+          "element": "C"
+        },
+        {
+          "id": "T5",
+          "x": 5,
+          "y": 0,
+          "element": "C"
+        }
+      ],
+      "bonds": [
+        {
+          "from": "T1",
+          "to": "T2",
+          "order": 1
+        },
+        {
+          "from": "T2",
+          "to": "T3",
+          "order": 3
+        },
+        {
+          "from": "T3",
+          "to": "T4",
+          "order": 1
+        },
+        {
+          "from": "T4",
+          "to": "T5",
+          "order": 1
+        }
+      ]
+    },
+    "smiles": "CC#CCC",
+    "prompt": "จะเริ่มนับจากด้านไหนดี?",
+    "locants": {
+      "left": {
+        "bond": 2,
+        "substituents": []
+      },
+      "right": {
+        "bond": 3,
+        "substituents": []
+      }
+    },
+    "answer": "left",
+    "decidingRule": "bond",
+    "hasConflict": false,
+    "explanation": "พันธะซ้อนได้เลขตำแหน่งต่ำกว่าเมื่อเริ่มนับจากด้านซ้าย (2 เทียบกับ 3) พันธะคู่/สามต้องมาก่อนเสมอ ไม่ว่าหมู่แทนที่จะอยู่ตรงไหน",
+    "hint": "เช็กตำแหน่งพันธะคู่/สามก่อนเป็นอันดับแรก — กฎนี้ชนะกฎหมู่แทนที่เสมอ"
+  },
+  {
+    "id": "L2-M-006",
+    "level": 2,
+    "difficulty": "medium",
+    "structure": {
+      "atoms": [
+        {
+          "id": "T1",
+          "x": 1,
+          "y": 0,
+          "element": "C"
+        },
+        {
+          "id": "T2",
+          "x": 2,
+          "y": 0.55,
+          "element": "C"
+        },
+        {
+          "id": "T3",
+          "x": 3,
+          "y": 0,
+          "element": "C"
+        },
+        {
+          "id": "T4",
+          "x": 4,
+          "y": 0.55,
+          "element": "C"
+        },
+        {
+          "id": "T5",
+          "x": 5,
+          "y": 0,
+          "element": "C"
+        },
+        {
+          "id": "T6",
+          "x": 6,
+          "y": 0.55,
+          "element": "C"
+        },
+        {
+          "id": "T7",
+          "x": 7,
+          "y": 0,
+          "element": "C"
+        },
+        {
+          "id": "T8",
+          "x": 8,
+          "y": 0.55,
+          "element": "C"
+        },
+        {
+          "id": "Sub1",
+          "x": 2,
+          "y": -0.3999999999999999,
+          "element": "Cl"
+        },
+        {
+          "id": "Sub2",
+          "x": 6,
+          "y": -0.3999999999999999,
+          "element": "Cl"
+        }
+      ],
+      "bonds": [
+        {
+          "from": "T1",
+          "to": "T2",
+          "order": 1
+        },
+        {
+          "from": "T2",
+          "to": "T3",
+          "order": 1
+        },
+        {
+          "from": "T3",
+          "to": "T4",
+          "order": 1
+        },
+        {
+          "from": "T4",
+          "to": "T5",
+          "order": 1
+        },
+        {
+          "from": "T5",
+          "to": "T6",
+          "order": 1
+        },
+        {
+          "from": "T6",
+          "to": "T7",
+          "order": 1
+        },
+        {
+          "from": "T7",
+          "to": "T8",
+          "order": 1
+        },
+        {
+          "from": "T2",
+          "to": "Sub1",
+          "order": 1
+        },
+        {
+          "from": "T6",
+          "to": "Sub2",
+          "order": 1
+        }
+      ]
+    },
+    "smiles": "CC(Cl)CCCC(Cl)CC",
+    "prompt": "จะเริ่มนับจากด้านไหนดี?",
+    "locants": {
+      "left": {
+        "bond": null,
+        "substituents": [
+          2,
+          6
+        ]
+      },
+      "right": {
+        "bond": null,
+        "substituents": [
+          3,
+          7
+        ]
+      }
+    },
+    "answer": "left",
+    "decidingRule": "substituent",
+    "hasConflict": false,
+    "explanation": "เทียบเลขตำแหน่งของหมู่แทนที่ทีละตัวจากน้อยไปมาก — นับจากซ้ายได้ [2, 6] นับจากขวาได้ [3, 7] ที่จุดแรกที่ต่างกัน ฝั่งซ้ายให้เลขต่ำกว่า จึงเป็นทิศทางที่ถูกต้อง",
+    "hint": "ไล่เทียบเลขตำแหน่งของหมู่แทนที่ทีละตัวจากน้อยไปมาก จนกว่าจะเจอจุดที่ต่างกัน"
+  },
+  {
+    "id": "L2-M-007",
+    "level": 2,
+    "difficulty": "medium",
+    "structure": {
+      "atoms": [
+        {
+          "id": "T1",
+          "x": 1,
+          "y": 0,
+          "element": "C"
+        },
+        {
+          "id": "T2",
+          "x": 2,
+          "y": 0.55,
+          "element": "C"
+        },
+        {
+          "id": "T3",
+          "x": 3,
+          "y": 0,
+          "element": "C"
+        },
+        {
+          "id": "T4",
+          "x": 4,
+          "y": 0.55,
+          "element": "C"
+        },
+        {
+          "id": "T5",
+          "x": 5,
+          "y": 0,
+          "element": "C"
+        },
+        {
+          "id": "T6",
+          "x": 6,
+          "y": 0.55,
+          "element": "C"
+        },
+        {
+          "id": "T7",
+          "x": 7,
+          "y": 0,
+          "element": "C"
+        },
+        {
+          "id": "T8",
+          "x": 8,
+          "y": 0.55,
+          "element": "C"
+        },
+        {
+          "id": "T9",
+          "x": 9,
+          "y": 0,
+          "element": "C"
+        },
+        {
+          "id": "Sub1",
+          "x": 3,
+          "y": -0.95,
+          "element": "Cl"
+        },
+        {
+          "id": "Sub2",
+          "x": 4,
+          "y": -0.3999999999999999,
+          "element": "Cl"
+        },
+        {
+          "id": "Sub3",
+          "x": 8,
+          "y": -0.3999999999999999,
+          "element": "Cl"
+        }
+      ],
+      "bonds": [
+        {
+          "from": "T1",
+          "to": "T2",
+          "order": 1
+        },
+        {
+          "from": "T2",
+          "to": "T3",
+          "order": 1
+        },
+        {
+          "from": "T3",
+          "to": "T4",
+          "order": 1
+        },
+        {
+          "from": "T4",
+          "to": "T5",
+          "order": 1
+        },
+        {
+          "from": "T5",
+          "to": "T6",
+          "order": 1
+        },
+        {
+          "from": "T6",
+          "to": "T7",
+          "order": 1
+        },
+        {
+          "from": "T7",
+          "to": "T8",
+          "order": 1
+        },
+        {
+          "from": "T8",
+          "to": "T9",
+          "order": 1
+        },
+        {
+          "from": "T3",
+          "to": "Sub1",
+          "order": 1
+        },
+        {
+          "from": "T4",
+          "to": "Sub2",
+          "order": 1
+        },
+        {
+          "from": "T8",
+          "to": "Sub3",
+          "order": 1
+        }
+      ]
+    },
+    "smiles": "CCC(Cl)C(Cl)CCCC(Cl)C",
+    "prompt": "จะเริ่มนับจากด้านไหนดี?",
+    "locants": {
+      "left": {
+        "bond": null,
+        "substituents": [
+          3,
+          4,
+          8
+        ]
+      },
+      "right": {
+        "bond": null,
+        "substituents": [
+          2,
+          6,
+          7
+        ]
+      }
+    },
+    "answer": "right",
+    "decidingRule": "substituent",
+    "hasConflict": false,
+    "explanation": "เทียบเลขตำแหน่งของหมู่แทนที่ทีละตัวจากน้อยไปมาก — นับจากซ้ายได้ [3, 4, 8] นับจากขวาได้ [2, 6, 7] ที่จุดแรกที่ต่างกัน ฝั่งขวาให้เลขต่ำกว่า จึงเป็นทิศทางที่ถูกต้อง",
+    "hint": "ไล่เทียบเลขตำแหน่งของหมู่แทนที่ทีละตัวจากน้อยไปมาก จนกว่าจะเจอจุดที่ต่างกัน"
+  },
+  {
+    "id": "L2-M-008",
+    "level": 2,
+    "difficulty": "medium",
+    "structure": {
+      "atoms": [
+        {
+          "id": "T1",
+          "x": 1,
+          "y": 0,
+          "element": "C"
+        },
+        {
+          "id": "T2",
+          "x": 2,
+          "y": 0.55,
+          "element": "C"
+        },
+        {
+          "id": "T3",
+          "x": 3,
+          "y": 0,
+          "element": "C"
+        },
+        {
+          "id": "T4",
+          "x": 4,
+          "y": 0.55,
+          "element": "C"
+        },
+        {
+          "id": "T5",
+          "x": 5,
+          "y": 0,
+          "element": "C"
+        },
+        {
+          "id": "T6",
+          "x": 6,
+          "y": 0.55,
+          "element": "C"
+        },
+        {
+          "id": "Sub1",
+          "x": 5,
+          "y": -0.95,
+          "element": "Cl"
+        }
+      ],
+      "bonds": [
+        {
+          "from": "T1",
+          "to": "T2",
+          "order": 1
+        },
+        {
+          "from": "T2",
+          "to": "T3",
+          "order": 2
+        },
+        {
+          "from": "T3",
+          "to": "T4",
+          "order": 1
+        },
+        {
+          "from": "T4",
+          "to": "T5",
+          "order": 1
+        },
+        {
+          "from": "T5",
+          "to": "T6",
+          "order": 1
+        },
+        {
+          "from": "T5",
+          "to": "Sub1",
+          "order": 1
+        }
+      ]
+    },
+    "smiles": "CC=CCC(Cl)C",
+    "prompt": "จะเริ่มนับจากด้านไหนดี?",
+    "locants": {
+      "left": {
+        "bond": 2,
+        "substituents": [
+          5
+        ]
+      },
+      "right": {
+        "bond": 4,
+        "substituents": [
+          2
+        ]
+      }
+    },
+    "answer": "left",
+    "decidingRule": "bond",
+    "hasConflict": true,
+    "explanation": "พันธะซ้อนอยู่ที่ตำแหน่ง 2 ถ้านับจากซ้าย และตำแหน่ง 4 ถ้านับจากขวา — ถึงแม้การนับจากอีกด้านจะให้เลขตำแหน่งของหมู่แทนที่ต่ำกว่าก็ตาม แต่ \"พันธะคู่/สามต้องได้เลขต่ำก่อนเสมอ\" จึงต้องนับจากด้านซ้าย (ตำแหน่งพันธะ = 2) กฎนี้มาก่อนกฎเรื่องหมู่แทนที่เสมอ",
+    "hint": "เช็กตำแหน่งพันธะคู่/สามก่อนเป็นอันดับแรก — กฎนี้ชนะกฎหมู่แทนที่เสมอ"
+  },
+  {
+    "id": "L2-M-009",
+    "level": 2,
+    "difficulty": "medium",
+    "structure": {
+      "atoms": [
+        {
+          "id": "T1",
+          "x": 1,
+          "y": 0,
+          "element": "C"
+        },
+        {
+          "id": "T2",
+          "x": 2,
+          "y": 0.55,
+          "element": "C"
+        },
+        {
+          "id": "T3",
+          "x": 3,
+          "y": 0,
+          "element": "C"
+        },
+        {
+          "id": "T4",
+          "x": 4,
+          "y": 0.55,
+          "element": "C"
+        },
+        {
+          "id": "T5",
+          "x": 5,
+          "y": 0,
+          "element": "C"
+        },
+        {
+          "id": "T6",
+          "x": 6,
+          "y": 0.55,
+          "element": "C"
+        },
+        {
+          "id": "T7",
+          "x": 7,
+          "y": 0,
+          "element": "C"
+        },
+        {
+          "id": "T8",
+          "x": 8,
+          "y": 0.55,
+          "element": "C"
+        },
+        {
+          "id": "Sub1",
+          "x": 3,
+          "y": -0.95,
+          "element": "Cl"
+        },
+        {
+          "id": "Sub2",
+          "x": 5,
+          "y": -0.95,
+          "element": "Cl"
+        }
+      ],
+      "bonds": [
+        {
+          "from": "T1",
+          "to": "T2",
+          "order": 1
+        },
+        {
+          "from": "T2",
+          "to": "T3",
+          "order": 1
+        },
+        {
+          "from": "T3",
+          "to": "T4",
+          "order": 1
+        },
+        {
+          "from": "T4",
+          "to": "T5",
+          "order": 1
+        },
+        {
+          "from": "T5",
+          "to": "T6",
+          "order": 1
+        },
+        {
+          "from": "T6",
+          "to": "T7",
+          "order": 1
+        },
+        {
+          "from": "T7",
+          "to": "T8",
+          "order": 1
+        },
+        {
+          "from": "T3",
+          "to": "Sub1",
+          "order": 1
+        },
+        {
+          "from": "T5",
+          "to": "Sub2",
+          "order": 1
+        }
+      ]
+    },
+    "smiles": "CCC(Cl)CC(Cl)CCC",
+    "prompt": "จะเริ่มนับจากด้านไหนดี?",
+    "locants": {
+      "left": {
+        "bond": null,
+        "substituents": [
+          3,
+          5
+        ]
+      },
+      "right": {
+        "bond": null,
+        "substituents": [
+          4,
+          6
+        ]
+      }
+    },
+    "answer": "left",
+    "decidingRule": "substituent",
+    "hasConflict": false,
+    "explanation": "เทียบเลขตำแหน่งของหมู่แทนที่ทีละตัวจากน้อยไปมาก — นับจากซ้ายได้ [3, 5] นับจากขวาได้ [4, 6] ที่จุดแรกที่ต่างกัน ฝั่งซ้ายให้เลขต่ำกว่า จึงเป็นทิศทางที่ถูกต้อง",
+    "hint": "ไล่เทียบเลขตำแหน่งของหมู่แทนที่ทีละตัวจากน้อยไปมาก จนกว่าจะเจอจุดที่ต่างกัน"
+  },
+  {
+    "id": "L2-H-006",
+    "level": 2,
+    "difficulty": "hard",
+    "structure": {
+      "atoms": [
+        {
+          "id": "T1",
+          "x": 1,
+          "y": 0,
+          "element": "C"
+        },
+        {
+          "id": "T2",
+          "x": 2,
+          "y": 0.55,
+          "element": "C"
+        },
+        {
+          "id": "T3",
+          "x": 3,
+          "y": 0,
+          "element": "C"
+        },
+        {
+          "id": "T4",
+          "x": 4,
+          "y": 0.55,
+          "element": "C"
+        },
+        {
+          "id": "T5",
+          "x": 5,
+          "y": 0,
+          "element": "C"
+        },
+        {
+          "id": "T6",
+          "x": 6,
+          "y": 0.55,
+          "element": "C"
+        },
+        {
+          "id": "T7",
+          "x": 7,
+          "y": 0,
+          "element": "C"
+        },
+        {
+          "id": "T8",
+          "x": 8,
+          "y": 0.55,
+          "element": "C"
+        },
+        {
+          "id": "T9",
+          "x": 9,
+          "y": 0,
+          "element": "C"
+        },
+        {
+          "id": "Sub1",
+          "x": 7,
+          "y": -0.95,
+          "element": "Cl"
+        }
+      ],
+      "bonds": [
+        {
+          "from": "T1",
+          "to": "T2",
+          "order": 1
+        },
+        {
+          "from": "T2",
+          "to": "T3",
+          "order": 2
+        },
+        {
+          "from": "T3",
+          "to": "T4",
+          "order": 1
+        },
+        {
+          "from": "T4",
+          "to": "T5",
+          "order": 1
+        },
+        {
+          "from": "T5",
+          "to": "T6",
+          "order": 1
+        },
+        {
+          "from": "T6",
+          "to": "T7",
+          "order": 1
+        },
+        {
+          "from": "T7",
+          "to": "T8",
+          "order": 1
+        },
+        {
+          "from": "T8",
+          "to": "T9",
+          "order": 1
+        },
+        {
+          "from": "T7",
+          "to": "Sub1",
+          "order": 1
+        }
+      ]
+    },
+    "smiles": "CC=CCCCC(Cl)CC",
+    "prompt": "จะเริ่มนับจากด้านไหนดี?",
+    "locants": {
+      "left": {
+        "bond": 2,
+        "substituents": [
+          7
+        ]
+      },
+      "right": {
+        "bond": 7,
+        "substituents": [
+          3
+        ]
+      }
+    },
+    "answer": "left",
+    "decidingRule": "bond",
+    "hasConflict": true,
+    "explanation": "พันธะซ้อนอยู่ที่ตำแหน่ง 2 ถ้านับจากซ้าย และตำแหน่ง 7 ถ้านับจากขวา — ถึงแม้การนับจากอีกด้านจะให้เลขตำแหน่งของหมู่แทนที่ต่ำกว่าก็ตาม แต่ \"พันธะคู่/สามต้องได้เลขต่ำก่อนเสมอ\" จึงต้องนับจากด้านซ้าย (ตำแหน่งพันธะ = 2) กฎนี้มาก่อนกฎเรื่องหมู่แทนที่เสมอ",
+    "hint": "เช็กตำแหน่งพันธะคู่/สามก่อนเป็นอันดับแรก — กฎนี้ชนะกฎหมู่แทนที่เสมอ"
+  },
+  {
+    "id": "L2-H-007",
+    "level": 2,
+    "difficulty": "hard",
+    "structure": {
+      "atoms": [
+        {
+          "id": "T1",
+          "x": 1,
+          "y": 0,
+          "element": "C"
+        },
+        {
+          "id": "T2",
+          "x": 2,
+          "y": 0.55,
+          "element": "C"
+        },
+        {
+          "id": "T3",
+          "x": 3,
+          "y": 0,
+          "element": "C"
+        },
+        {
+          "id": "T4",
+          "x": 4,
+          "y": 0.55,
+          "element": "C"
+        },
+        {
+          "id": "T5",
+          "x": 5,
+          "y": 0,
+          "element": "C"
+        },
+        {
+          "id": "T6",
+          "x": 6,
+          "y": 0.55,
+          "element": "C"
+        },
+        {
+          "id": "T7",
+          "x": 7,
+          "y": 0,
+          "element": "C"
+        },
+        {
+          "id": "T8",
+          "x": 8,
+          "y": 0.55,
+          "element": "C"
+        },
+        {
+          "id": "Sub1",
+          "x": 2,
+          "y": -0.3999999999999999,
+          "element": "Cl"
+        },
+        {
+          "id": "Sub2",
+          "x": 3,
+          "y": -0.95,
+          "element": "Cl"
+        },
+        {
+          "id": "Sub3",
+          "x": 7,
+          "y": -0.95,
+          "element": "Cl"
+        }
+      ],
+      "bonds": [
+        {
+          "from": "T1",
+          "to": "T2",
+          "order": 1
+        },
+        {
+          "from": "T2",
+          "to": "T3",
+          "order": 1
+        },
+        {
+          "from": "T3",
+          "to": "T4",
+          "order": 1
+        },
+        {
+          "from": "T4",
+          "to": "T5",
+          "order": 1
+        },
+        {
+          "from": "T5",
+          "to": "T6",
+          "order": 1
+        },
+        {
+          "from": "T6",
+          "to": "T7",
+          "order": 1
+        },
+        {
+          "from": "T7",
+          "to": "T8",
+          "order": 1
+        },
+        {
+          "from": "T2",
+          "to": "Sub1",
+          "order": 1
+        },
+        {
+          "from": "T3",
+          "to": "Sub2",
+          "order": 1
+        },
+        {
+          "from": "T7",
+          "to": "Sub3",
+          "order": 1
+        }
+      ]
+    },
+    "smiles": "CC(Cl)C(Cl)CCCC(Cl)C",
+    "prompt": "จะเริ่มนับจากด้านไหนดี?",
+    "locants": {
+      "left": {
+        "bond": null,
+        "substituents": [
+          2,
+          3,
+          7
+        ]
+      },
+      "right": {
+        "bond": null,
+        "substituents": [
+          2,
+          6,
+          7
+        ]
+      }
+    },
+    "answer": "left",
+    "decidingRule": "substituent",
+    "hasConflict": false,
+    "explanation": "เทียบเลขตำแหน่งของหมู่แทนที่ทีละตัวจากน้อยไปมาก — นับจากซ้ายได้ [2, 3, 7] นับจากขวาได้ [2, 6, 7] ที่จุดแรกที่ต่างกัน ฝั่งซ้ายให้เลขต่ำกว่า จึงเป็นทิศทางที่ถูกต้อง",
+    "hint": "ไล่เทียบเลขตำแหน่งของหมู่แทนที่ทีละตัวจากน้อยไปมาก จนกว่าจะเจอจุดที่ต่างกัน"
+  },
+  {
+    "id": "L2-H-008",
+    "level": 2,
+    "difficulty": "hard",
+    "structure": {
+      "atoms": [
+        {
+          "id": "T1",
+          "x": 1,
+          "y": 0,
+          "element": "C"
+        },
+        {
+          "id": "T2",
+          "x": 2,
+          "y": 0.55,
+          "element": "C"
+        },
+        {
+          "id": "T3",
+          "x": 3,
+          "y": 0,
+          "element": "C"
+        },
+        {
+          "id": "T4",
+          "x": 4,
+          "y": 0.55,
+          "element": "C"
+        },
+        {
+          "id": "T5",
+          "x": 5,
+          "y": 0,
+          "element": "C"
+        },
+        {
+          "id": "T6",
+          "x": 6,
+          "y": 0.55,
+          "element": "C"
+        },
+        {
+          "id": "T7",
+          "x": 7,
+          "y": 0,
+          "element": "C"
+        }
+      ],
+      "bonds": [
+        {
+          "from": "T1",
+          "to": "T2",
+          "order": 1
+        },
+        {
+          "from": "T2",
+          "to": "T3",
+          "order": 1
+        },
+        {
+          "from": "T3",
+          "to": "T4",
+          "order": 2
+        },
+        {
+          "from": "T4",
+          "to": "T5",
+          "order": 1
+        },
+        {
+          "from": "T5",
+          "to": "T6",
+          "order": 1
+        },
+        {
+          "from": "T6",
+          "to": "T7",
+          "order": 1
+        }
+      ]
+    },
+    "smiles": "CCC=CCCC",
+    "prompt": "จะเริ่มนับจากด้านไหนดี?",
+    "locants": {
+      "left": {
+        "bond": 3,
+        "substituents": []
+      },
+      "right": {
+        "bond": 4,
+        "substituents": []
+      }
+    },
+    "answer": "left",
+    "decidingRule": "bond",
+    "hasConflict": false,
+    "explanation": "พันธะซ้อนได้เลขตำแหน่งต่ำกว่าเมื่อเริ่มนับจากด้านซ้าย (3 เทียบกับ 4) พันธะคู่/สามต้องมาก่อนเสมอ ไม่ว่าหมู่แทนที่จะอยู่ตรงไหน",
+    "hint": "เช็กตำแหน่งพันธะคู่/สามก่อนเป็นอันดับแรก — กฎนี้ชนะกฎหมู่แทนที่เสมอ"
+  },
+  {
+    "id": "L2-H-009",
+    "level": 2,
+    "difficulty": "hard",
+    "structure": {
+      "atoms": [
+        {
+          "id": "T1",
+          "x": 1,
+          "y": 0,
+          "element": "C"
+        },
+        {
+          "id": "T2",
+          "x": 2,
+          "y": 0.55,
+          "element": "C"
+        },
+        {
+          "id": "T3",
+          "x": 3,
+          "y": 0,
+          "element": "C"
+        },
+        {
+          "id": "T4",
+          "x": 4,
+          "y": 0.55,
+          "element": "C"
+        },
+        {
+          "id": "T5",
+          "x": 5,
+          "y": 0,
+          "element": "C"
+        },
+        {
+          "id": "T6",
+          "x": 6,
+          "y": 0.55,
+          "element": "C"
+        },
+        {
+          "id": "Sub1",
+          "x": 3,
+          "y": -0.95,
+          "element": "Cl"
+        }
+      ],
+      "bonds": [
+        {
+          "from": "T1",
+          "to": "T2",
+          "order": 1
+        },
+        {
+          "from": "T2",
+          "to": "T3",
+          "order": 1
+        },
+        {
+          "from": "T3",
+          "to": "T4",
+          "order": 2
+        },
+        {
+          "from": "T4",
+          "to": "T5",
+          "order": 1
+        },
+        {
+          "from": "T5",
+          "to": "T6",
+          "order": 1
+        },
+        {
+          "from": "T3",
+          "to": "Sub1",
+          "order": 1
+        }
+      ]
+    },
+    "smiles": "CCC(Cl)=CCC",
+    "prompt": "จะเริ่มนับจากด้านไหนดี?",
+    "locants": {
+      "left": {
+        "bond": 3,
+        "substituents": [
+          3
+        ]
+      },
+      "right": {
+        "bond": 3,
+        "substituents": [
+          4
+        ]
+      }
+    },
+    "answer": "left",
+    "decidingRule": "substituent",
+    "hasConflict": false,
+    "explanation": "พันธะซ้อนอยู่กึ่งกลางพอดี (ตำแหน่ง 3 เท่ากันทั้งสองด้าน) จึงต้องตัดสินด้วยกฎถัดไป: เทียบเลขตำแหน่งของหมู่แทนที่ — นับจากซ้ายได้ [3] นับจากขวาได้ [4] จุดแรกที่ต่างกันฝั่งซ้ายต่ำกว่า จึงชนะ",
+    "hint": "ไล่เทียบเลขตำแหน่งของหมู่แทนที่ทีละตัวจากน้อยไปมาก จนกว่าจะเจอจุดที่ต่างกัน"
+  }
+]
